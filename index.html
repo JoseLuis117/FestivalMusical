@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <meta name="description" content="Festival musical EDM y Rock">
+    <meta name="author" content="José Luis Sánchez Mendoza">
+    <meta name="keywords" content="EDM, Rock, Festival">
+</head>
+<body>
+    <header class="header">
+        <div class="content cabecera">
+            <h1 class="centrar-texto">Rock & EDM Festival</h1>
+            <nav class="header__nav">
+                <a href="#lineup" class="enlace">LineUP</a>
+                <a href="#galeria" class="enlace">Galería</a>
+                <a href="#boletos" class="enlace">Boletos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay">
+            <div class="content overlay__contenido">
+                <h1>Rock & EDM Festival</h1>
+                <p>Julio 2022, Guadalajara, México.</p>
+            </div>
+        </div>
+        <video autoplay loop muted>
+            <source src="video/concierto.webm">
+            <source src="video/concierto.ogg">
+            <source src="video/concierto.mp4">
+        </video>
+    </div>
+    <section>
+        <div class="content contenedorInfo">
+            <div class="item">
+                <picture>
+                    <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                    <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                    <img src="build/img/imagen_vocalista.jpg" alt="Vocalista">
+                </picture>
+            </div>
+            <div class="item">
+                <h2>Rock & EDM Festiva</h2>
+                <p class="fecha">Julio 2022, Guadalajara, México</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad pariatur consectetur quia dolorum laudantium vero delectus molestiae quam! Quasi incidunt a laboriosam ullam, neque fuga eveniet illo magnam exercitationem sint?</p>
+            </div>
+        </div>
+    </section>
+    <!--Lineup-->
+    <section class="lineup" id="lineup">
+        <div class="content">
+            <h3 class="centrar-texto">Line UP</h3>
+            <p class="centrar-texto">VIERNES 21</p>
+            <!--Contenedor de horarios-->
+            <div class="lineupGrid">
+                <!--Item de contenedor de hoarios-->
+                <div class="lineupGrid__item amarillo">
+                    <p class="centrar-texto rock">Escenario Rock</p>
+                    <ul class="horario-amarillo">
+                        <li>
+                            24:00 | <span>Metallica</span>
+                        </li>
+                        <li>
+                            22:00 | <span>Pearl Jam</span>
+                        </li>
+                        <li>
+                            20:00 | <span>KoRn</span>
+                        </li>
+                        <li>
+                            19:00 | <span>Muse</span>
+                        </li>
+                        <li>
+                            18:00 | <span>Breaking Benjamin</span>
+                        </li>
+                        <li>
+                            17:00 | <span>30 Seconds to Mars</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Item de contenedor de hoarios-->
+                <div class="lineupGrid__item azul">
+                    <p class="centrar-texto edm">Escenario EDM</p>
+                    <ul class="horario-azul">
+                        <li>
+                            24:00 | <span>Deadmau5</span>
+                        </li>
+                        <li>
+                            22:00 | <span>Tïesto</span>
+                        </li>
+                        <li>
+                            20:00 | <span>Hardwell</span>
+                        </li>
+                        <li>
+                            19:00 | <span>Dash Berlin</span>
+                        </li>
+                        <li>
+                            18:00 | <span>Fedde Legrand</span>
+                        </li>
+                        <li>
+                            17:00 | <span>Audien</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="centrar-texto">SABADO 22</p>
+            <!--Contenedor de horarios-->
+            <div class="lineupGrid">
+                <!--Item de contenedor de hoarios-->
+                <div class="lineupGrid__item azul">
+                    <p class="centrar-texto rock">Escenario Rock</p>
+                    <ul class="horario-azul">
+                        <li>
+                            24:00 | <span>Red Hot Chili Peppers</span>
+                        </li>
+                        <li>
+                            22:00 | <span>The Killers</span>
+                        </li>
+                        <li>
+                            20:00 | <span>Deftones</span>
+                        </li>
+                        <li>
+                            19:00 | <span>Limp Bizkit</span>
+                        </li>
+                        <li>
+                            18:00 | <span>Papa Roach</span>
+                        </li>
+                        <li>
+                            17:00 | <span>Lamb of God</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--Item de contenedor de hoarios-->
+                <div class="lineupGrid__item amarillo">
+                    <p class="centrar-texto edm">Escenario EDM</p>
+                    <ul class="horario-amarillo">
+                        <li>
+                            24:00 | <span>Paul Van Dyk</span>
+                        </li>
+                        <li>
+                            22:00 | <span>Armin Van Buuren</span>
+                        </li>
+                        <li>
+                            20:00 | <span>Above & Beyond</span>
+                        </li>
+                        <li>
+                            19:00 | <span>Eric Prdyz</span>
+                        </li>
+                        <li>
+                            18:00 | <span>Ferry Corsten</span>
+                        </li>
+                        <li>
+                            17:00 | <span>Vini Vici</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Galeria-->
+    <section class="galeria" id="galeria">
+        <div class="content contenedor">
+            <h3 class="centrar-texto">Galería</h3>
+            <div class="galeria-contenedor"></div>
+        </div>
+    </section>
+    <section class="boletos" id="boletos">
+        <div class="content">
+            <h3 class="centrar-texto">Boletos</h3>
+            <div class="boletosGrid">
+                <div class="boletosGrid__item">
+                    <p class="centrar-texto">Pase 1 Día</p>
+                    <div class="contenidoBoletos">
+                        <p>Incluye</p>
+                        <ul class="contenidoBoletos-lista">
+                            <li>Acceso a ambos escenarios</li>
+                            <li>Comida y Bebida</li>
+                        </ul>
+                        <p>$100</p>
+                    </div>
+                </div>
+                <div class="boletosGrid__item">
+                    <p class="centrar-texto">Pase 2 Días</p>
+                    <div class="contenidoBoletos">
+                        <p>Incluye</p>
+                        <ul class="contenidoBoletos-lista">
+                            <li>Acceso a ambos escenarios</li>
+                            <li>Comida y Bebida</li>
+                            <li>Camisa del evento</li>
+                            <li>Acceso VIP</li>
+                        </ul>
+                        <p>$180</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content">
+            <p class="centrar-texto">Rock & EDM Festival. Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>

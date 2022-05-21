@@ -1,0 +1,11 @@
+img
+node_modules
+src
+._DS_Store
+._img
+._video
+gulpfile.js
+package-lock.json
+package.json
+.DS_Store
+._.DS_Store
